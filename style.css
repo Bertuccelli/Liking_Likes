@@ -1,0 +1,96 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+body {
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: -5%;
+}
+
+.feed {
+    background-color: white;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    width: 396px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: khaki;
+    width: 55px;
+    height: 30px;
+    font-size: 18px;
+    align-self: center;
+    cursor: pointer;
+    box-shadow: 4px 4px 3px black;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /* margin-top: 5px; */
+    /* margin: 0;
+    width: 60px; */
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.post {
+    width: 80%;
+}
+
+img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.links {
+    text-decoration: underline;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
